@@ -3,11 +3,11 @@ import bookImage from "../../assets/img/books-1.svg"
 
 export default ({ children }) => (
   <section className="bg-gray-200 has-divider">
-    <div className="container pt-10">
+    <div className="container-w-1140px pt-10">
       <div className="md:flex md:flex-row md:items-center">
         {/* SVG Image */}
         <div
-          className="md:order-1 md:flex-1 aos-init aos-animate"
+          className="md:order-1 md:flex-1 animated fadeInRight"
           data-aos="fade-left"
         >
           <img src={bookImage} alt="" />
@@ -15,7 +15,9 @@ export default ({ children }) => (
 
         {/* Call to action text */}
         <div className="md:flex-1 pr-xl-5 md:order-first">
-          <h1 className="text-4xl font-medium">Track your reading habit</h1>
+          <h1 className="text-4xl font-medium">
+            Foster and Track your reading habit
+          </h1>
           <p className="mt-6 text-gray-700">
             Understand how much, and what you read <br /> and become a wiser
             human.

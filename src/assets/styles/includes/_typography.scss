@@ -10,3 +10,8 @@ a {
 .features-card {
   @apply px-3 flex-1;
 }
+
+.container-w-1140px {
+  max-width: 1140px;
+  @apply mx-auto px-4;
+}

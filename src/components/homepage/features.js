@@ -34,7 +34,7 @@ export default () => {
 
   return (
     <section className="pt-10 pb-20">
-      <div className="container">
+      <div className="container-w-1140px">
         <h1 className="pb-10">Features</h1>
         <div className="flex flex-col md:flex-row -mx-3">
           {data.map((cardData, index) => {

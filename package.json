@@ -24,6 +24,7 @@
     "react-helmet": "^5.2.1",
     "react-icons": "^3.8.0",
     "react-typography": "^0.16.19",
+    "tailwindcss-animatecss": "^0.2.3",
     "typography": "^0.16.19",
     "typography-theme-fairy-gates": "^0.16.19"
   },

@@ -5,7 +5,7 @@ import React from "react"
  */
 export default props => (
   <div
-    className={`flex flex-col bg-gray-100 rounded border border-gray-300 mx-3 my-2 p-5 shadow-lg ${props.className}`}
+    className={`flex flex-col bg-gray-100 rounded border border-gray-300 mx-3 my-2 p-5 shadow-lg animated fadeInLeft ${props.className}`}
   >
     <div className="p-3 border rounded-full border-purple-500 w-12 bg-white">
       {props.icon}
